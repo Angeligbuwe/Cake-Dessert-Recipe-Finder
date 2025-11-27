@@ -1,0 +1,128 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cake & Dessert Recipe Finder Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="Styles.css">
+    <meta name="description" content="Find the best cake recipes">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+
+<body>
+
+    <div class="floating-cake floating-cake-1">🍰</div>
+    <div class="floating-cake floating-cake-2">🎂</div>
+    
+    <header class="main-header">
+        <div class="logo-wrapper">
+            <img src="Angels img.png" class="logo" alt="Cake & Dessert Recipe Finder Logo"/>
+            <span class="app-name">Cake & Dessert Recipe App</span>
+        </div>
+
+        <nav class="nav-links">
+            <a href="#" class="nav-link">Home</a>
+            <a href="#" class="nav-link">Search</a>
+            <a href="#" class="nav-link" id="saved-link">Saved</a>
+            <a href="#contact" class="nav-link">Contact</a>
+        </nav>
+
+        <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark or light theme">
+            🌓
+        </button>
+    </header>
+
+
+    <main class="cake-recipe-app-container">
+        <h1>Cake & Dessert Recipe Finder</h1>
+
+        
+        <form id="search-form" class="search-box">
+            <label for="search-input" class="visually-hidden">Search for dessert or cake recipe</label>
+
+            <input
+                type="text"
+                id="search-input"
+                placeholder="Search for a cake (e.g., Vanilla Cake)" />
+
+            <button type="submit" id="search-button">Search</button>
+        </form>
+
+
+        <div class="random-button-container">
+            <button id="random-cake-button" class="random-recipe">
+                Get Random Recipes
+            </button>
+        </div>
+
+        
+        <div class="message" id="message-area">
+            Search for cake & dessert recipe!
+        </div>
+
+
+        <div class="results-grid" id="results-grid">
+
+            
+        </div>
+    </main>
+
+    
+    <div class="modal-container hidden" id="recipe-modal">
+        <div class="modal-content">
+            <button id="close-modal-btn" class="modal-close-btn" aria-label="Close recipe details">
+                &times;
+            </button>
+
+            <div id="recipe-details-content">
+                
+            </div>
+        </div>
+    </div>
+
+
+<section id="contact" class="contact-section">
+  <h2>Contact Me</h2>
+  <p>If you have any questions or need help, feel free to reach out 💌</p>
+
+  <form id="contact-form" class="form-box" action="https://formspree.io/f/mjkzbqyb" method="POST">
+    <label>Name</label>
+    <input type="text" name="name" required placeholder="Angel Enos">
+
+    <label>Email</label>
+    <input type="email" name="email" required placeholder="angel@example.com">
+
+    <label>Message</label>
+    <textarea name="message" rows="4" required placeholder="Write your message..."></textarea>
+
+    <button type="submit" class="form-btn">Send Message</button>
+  
+</form>
+</section>
+
+
+    <footer>
+        <p>
+            &copy; 2025
+            <img src="Angels img.png" class="footer-logo" alt="Cake & Dessert app logo">
+            Cake & Dessert Recipe App
+        </p>
+    </footer>
+
+
+    <script src="Script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+ 
