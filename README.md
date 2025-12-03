@@ -80,3 +80,12 @@ Build my own cake–focused API
 Improve styling in next update
 
 Add auto-cleanup + better display UI
+
+
+## Sources & References
+
+- ChatGPT: for guidance, explanation, debugging help, and code structure help  
+- Google: for general research  
+- YouTube: for tutorials and additional learning  
+- TheMealDB API: for recipe data source
+- Formspree: for contact form integration
