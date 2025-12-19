@@ -1,4 +1,4 @@
-**Cake & Dessert Recipe Finder**
+## 🍰 Cake & Dessert Recipe Finder
 
 A responsive web application for discovering dessert & cake recipes using TheMealDB API.
 Users can search recipes, view full details in a modal, save favorites with LocalStorage, and send messages through a contact form.
@@ -8,49 +8,33 @@ Users can search recipes, view full details in a modal, save favorites with Loca
 🔗 GitHub Repository: https://github.com/Angeligbuwe/Cake-Dessert-Recipe-Finder
 
  
-**Feature	 & Description**
+## Feature	& Description
 
-Search for cakes & desserts:	Users can type keywords like chocolate, vanilla, pie etc.
+- Search for cakes & desserts:	Users can type keywords like chocolate, vanilla, pie etc.
+- View full recipe details:	Shows ingredients, instructions and meal image in a modal popup
+- Light/Dark Mode Toggle:	Theme can be switched for better user experience
+- Save Favorite Recipes:	Stored using LocalStorage → remains even after page refresh
+- Random Recipe Generator:	Generates random meals for fun exploration
+- Contact Form:	Sends messages directly to email via Formspree
 
-View full recipe details:	Shows ingredients, instructions and meal image in a modal popup
+## Technologies Used
 
-Light/Dark Mode Toggle:	Theme can be switched for better user experience
+- HTML5
+- CSS3
+- JavaScript (DOM manipulation)
+- API Integration – TheMealDB
+- LocalStorage
+- Git & GitHub Pages Deployment
 
-Save Favorite Recipes:	Stored using LocalStorage → remains even after page refresh
+## How the App Works
 
-Random Recipe Generator:	Generates random meals for fun exploration
+- User searches for recipe → API fetches matching meals
+- Clicking Recipe opens modal with details
+- User can Save favorites using LocalStorage
+- Random button fetches new meal suggestions
+- Contact form sends message to developer email 💌
 
-Contact Form:	Sends messages directly to email via Formspree
-
-
-**Technologies Used**
-
-HTML5
-
-CSS3
-
-JavaScript (DOM manipulation)
-
-API Integration – TheMealDB
-
-LocalStorage
-
-Git & GitHub Pages Deployment
-
-**How the App Works**
-
-User searches for recipe → API fetches matching meals
-
-Clicking Recipe opens modal with details
-
-User can Save favorites using LocalStorage
-
-Random button fetches new meal suggestions
-
-Contact form sends message to developer email 💌
-
-
-**What I Learned**
+## What I Learned
 
 ✔ How to fetch data from an API
 
@@ -63,24 +47,17 @@ Contact form sends message to developer email 💌
 ✔ Debugging, renaming files, pushing, merging & publishing online
 
 
-**Challenges**
+## Challenges
 
+- Limited cake-only recipes in API
+- Modal & Dark theme consistency
+- LocalStorage management	Add 
 
-Limited cake-only recipes in API
+## Future Improvements
 
-Modal & Dark theme consistency
-
-LocalStorage management	Add 
-
-
-**Future Improvements**
-
-Build my own cake–focused API
-
-Improve styling in next update
-
-Add auto-cleanup + better display UI
-
+- Build my own cake–focused API
+- Improve styling in next update
+- Add auto-cleanup + better display UI
 
 ## Sources & References
 
